@@ -20,7 +20,7 @@
 
     <spring:theme code="standard.custom.css.file" var="customCssFile" />
     <link rel="stylesheet" href="css/carbon-components.css" />
-    <link rel="stylesheet" href="<c:url value="${customCssFile}" />" />
+    <link rel="stylesheet" href="<c:url value="${customCssFile}?v=2" />" />
     <link rel="icon" href="<c:url value="/images/favicon.png" />"/>
 
 </head>

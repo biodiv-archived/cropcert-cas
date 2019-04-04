@@ -103,7 +103,7 @@
 </form:form>
 <spring:theme code="cas.javascript.file" var="casJavascriptFile" text="" />
 <script type="text/javascript" src="js/modernizr-custom.js" />"></script>
-<script type="text/javascript" src="<c:url value="${casJavascriptFile}" />"></script>
+<script type="text/javascript" src="<c:url value="${casJavascriptFile}?v=2" />"></script>
 <jsp:directive.include file="includes/bottom.jsp" />
 
 
