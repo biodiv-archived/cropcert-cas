@@ -19,12 +19,12 @@
 
 
     <spring:theme code="standard.custom.css.file" var="customCssFile" />
+    <link rel="stylesheet" href="css/carbon-components.css" />
     <link rel="stylesheet" href="<c:url value="${customCssFile}" />" />
-    <link rel="icon" href="<c:url value="/favicon.ico" />" type="image/x-icon" />
+    <link rel="icon" href="<c:url value="/images/favicon.png" />"/>
 
 </head>
 <body id="cas">
 
 <div id="container">
-    <img src="images/strandlogo.png" alt="" width="421px" height="160px">
-  <div id="content">
+  <div id="content" class="bx--grid cas--wrapper">
