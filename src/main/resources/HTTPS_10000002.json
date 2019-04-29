@@ -2,7 +2,7 @@
     "@class": "org.apereo.cas.services.RegexRegisteredService",
     "serviceId": "^(https|imaps)://.*",
     "name": "HTTPS and IMAPS",
-    "id": 10000003,
+    "id": 10000002,
     "logoutType": "BACK_CHANNEL",
-    "logoutUrl": "https://localhost:8443/traceability/logout"
+    "logoutUrl": "https://localhost:8443/entity/logout"
 }
